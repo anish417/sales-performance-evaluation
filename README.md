@@ -1,24 +1,56 @@
-# Sales Performance Analysis
+# 📊 Sales Performance Analysis
 
-## Project Overview
+An end-to-end data analytics project using **SQL, Python, and Power BI** to analyze sales performance, profitability, customer behavior, product performance, and regional trends.
 
-This project analyzes sales data to identify sales trends, profitability, customer behavior, product performance, and regional performance.
+---
 
-The project uses SQL, Python, and Power BI to perform end-to-end data analysis and visualization.
+## 📌 Project Overview
 
-## Tools Used
+This project analyzes the **Global Superstore** dataset to identify important business trends and generate actionable insights.
 
-- MySQL
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Power BI
-- Excel/CSV
+The analysis follows an end-to-end data analytics workflow:
 
-## Dataset
+**Data → Cleaning → SQL Analysis → Python EDA → Power BI Dashboard → Business Insights**
 
-The project uses the Global Superstore dataset containing information about:
+---
+
+## 📊 Dashboard Preview
+
+![Sales Performance Dashboard](Images/Sales_Dashboard.png)
+
+---
+
+## 🎯 Business Objectives
+
+- Analyze overall sales performance
+- Identify the most profitable categories
+- Analyze regional sales and profitability
+- Identify top-performing products
+- Understand customer segment performance
+- Analyze yearly sales trends
+- Build an interactive business intelligence dashboard
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool | Purpose |
+|------|---------|
+| 🗄️ MySQL | Data analysis and business queries |
+| 🐍 Python | Data cleaning and exploratory analysis |
+| 🐼 Pandas | Data manipulation |
+| 📈 Matplotlib | Data visualization |
+| 📊 Seaborn | Statistical visualization |
+| 💻 Power BI | Interactive dashboard and reporting |
+| 📑 Excel / CSV | Data storage and processing |
+
+---
+
+## 📂 Dataset
+
+The project uses the **Global Superstore** dataset.
+
+The dataset contains information about:
 
 - Orders
 - Customers
@@ -29,87 +61,175 @@ The project uses the Global Superstore dataset containing information about:
 - Discounts
 - Regions
 - Categories
+- Customer Segments
 
-## Project Objectives
+---
 
-- Analyze overall sales performance
-- Identify profitable categories
-- Analyze regional performance
-- Identify top-performing products
-- Analyze customer segments
-- Analyze yearly sales trends
-- Build an interactive business dashboard
+## 🔄 Project Methodology
 
-## SQL Analysis
+### 1️⃣ Data Collection
 
-SQL was used to calculate:
+The Global Superstore dataset was used as the primary source for the analysis.
 
-- Total Sales
-- Total Profit
-- Total Orders
-- Average Order Value
-- Sales by Category
-- Profit by Region
-- Top Products
-- Top Customers
-- Yearly Sales Trends
+### 2️⃣ Data Cleaning
 
-## Python Analysis
+Python was used to:
+
+- Check missing values
+- Identify duplicate records
+- Convert data types
+- Prepare data for analysis
+- Perform basic data validation
+
+### 3️⃣ SQL Analysis
+
+MySQL was used to answer key business questions such as:
+
+- What are the total sales and profit?
+- What is the average order value?
+- Which categories generate the highest sales?
+- Which regions generate the highest profit?
+- What are the top-performing products?
+- Who are the top customers?
+- How have sales changed over time?
+
+### 4️⃣ Python Exploratory Data Analysis
 
 Python was used for:
 
-- Data cleaning
-- Missing-value analysis
-- Duplicate detection
-- Data type conversion
-- Exploratory Data Analysis
 - Sales analysis
 - Profit analysis
 - Category analysis
 - Regional analysis
+- Customer analysis
+- Exploratory data analysis
 - Data visualization
 
-## Power BI Dashboard
+### 5️⃣ Power BI Dashboard
 
-The Power BI dashboard includes:
+Power BI was used to transform the analysis into an interactive business dashboard.
 
-- Total Sales
-- Total Profit
-- Total Orders
-- Average Order Value
-- Sales Trend by Year
-- Sales by Category
-- Profit by Region
-- Sales by Customer Segment
-- Top 10 Products
-- Top 10 Customers
+---
 
-### Dashboard Preview
+## 📈 Key Performance Indicators
 
-![Sales Performance Dashboard](Images/Sales_Dashboard.png)
+| KPI | Value |
+|-----|------:|
+| Total Sales | **13M** |
+| Total Profit | **1.47M** |
+| Total Orders | **25K** |
+| Average Order Value | **505.01** |
 
-Interactive filters include:
+---
+
+## 📊 Dashboard Features
+
+The Power BI dashboard provides:
+
+- 💰 Total Sales
+- 📈 Total Profit
+- 🛒 Total Orders
+- 💵 Average Order Value
+- 📅 Sales Trend by Year
+- 📦 Sales by Category
+- 🌎 Profit by Region
+- 👥 Sales by Customer Segment
+- 🏆 Top 10 Products
+- ⭐ Top Customers
+- 🌍 Regional Sales Analysis
+
+### Interactive Filters
+
+Users can filter the dashboard by:
 
 - Year
 - Region
 - Category
 - Segment
 
-## Key Insights
+---
 
-- Technology generated the highest sales among the major categories.
-- Consumer customers contributed the largest share of sales.
-- Regional profitability varies significantly.
-- Sales increased across the analyzed years.
-- A small group of products contributes significantly to overall sales.
+## 💡 Key Business Insights
 
-## Project Structure
+### 🥇 Category Performance
+
+**Technology** generated the highest sales among the major product categories.
+
+### 👥 Customer Segments
+
+The **Consumer** segment contributed the largest share of overall sales.
+
+### 🌎 Regional Performance
+
+Profitability varies significantly across different regions, highlighting opportunities for deeper regional analysis.
+
+### 📈 Sales Trends
+
+Sales increased across the analyzed years, indicating overall positive sales growth.
+
+### 🏆 Product Performance
+
+A relatively small group of products contributes significantly to total sales, highlighting the importance of identifying and monitoring top-performing products.
+
+---
+
+## 📁 Project Structure
 
 ```text
 Sales-Performance-Analysis/
+│
+├── Dashboard/
+│   └── Sales performance analysis.pbix
+│
 ├── Dataset/
-├── SQL/
-├── Python/
-├── PowerBI/
+│   └── superstore.csv
+│
 ├── Images/
-└── README.md
+│   ├── Sales_Dashboard.png
+│   ├── query1.png
+│   ├── query2.png
+│   ├── query3.png
+│   └── query4.png
+│
+├── Python/
+│   └── Sales_analysis.ipynb
+│
+├── Result/
+│   ├── sales_by_category.csv
+│   ├── sales_region.csv
+│   ├── total_profit.csv
+│   └── total_sales.csv
+│
+├── Sql/
+│   └── analysis_queries.sql
+│
+└── README.md 
+
+🚀 Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+SQL querying
+Data cleaning
+Exploratory Data Analysis
+Data visualization
+Business intelligence
+Power BI dashboard development
+KPI development
+Sales analysis
+Profitability analysis
+Customer segmentation
+Regional analysis
+Business insight generation
+
+📌 Conclusion
+
+This project demonstrates an end-to-end approach to solving a business analytics problem using SQL, Python, and Power BI.
+
+The analysis transforms raw sales data into meaningful business insights that can support decisions related to:
+
+Product performance
+Regional strategy
+Customer segmentation
+Sales growth
+Profitability 
