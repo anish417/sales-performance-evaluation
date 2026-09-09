@@ -84,6 +84,10 @@ The Power BI dashboard includes:
 - Top 10 Products
 - Top 10 Customers
 
+### Dashboard Preview
+
+![Sales Performance Dashboard](Images/Sales_Dashboard.png)
+
 Interactive filters include:
 
 - Year
